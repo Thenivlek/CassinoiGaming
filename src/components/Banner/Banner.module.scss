@@ -1,0 +1,49 @@
+// Banner.module.scss
+
+.containerBanner {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerImageBanner {
+  width: 100vw; /* ocupa 100% da largura da viewport */
+  height: 320px; /* altura fixa (ajuste conforme o layout) */
+  overflow: hidden; /* esconde as partes cortadas */
+}
+
+.imagemLogo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* cobre toda a área cortando as bordas */
+  display: block;
+}
+
+.container {
+  width: 100vw;
+  max-width: 1440px;
+  padding: 16px 8px; // espaçamento lateral
+  margin: 20px auto 0 auto; // centraliza e afasta do banner
+  display: flex;
+  align-items: center;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  height: 48px;
+}
+
+.icon {
+  color: #aaa;
+  margin-right: 12px;
+}
+
+.input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}

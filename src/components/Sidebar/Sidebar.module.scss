@@ -1,0 +1,62 @@
+@use "../../styles/variables" as *;
+@use "sass:color";
+
+.sidebar {
+  color: $color-text;
+  width: 100vw;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: $color-primary;
+}
+.logoBet {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+.nav {
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+}
+
+.link {
+  align-items: center;
+  padding: 12px;
+  color: $color-text;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.icon {
+  margin-right: 12px;
+  font-size: 1.1rem;
+}
+
+.registerButton {
+  background-color: #d5b65d;
+  color: black;
+  border-radius: 40px;
+  margin-right: 12px;
+}
+.loginButton {
+  background-color: #212121;
+  color: white;
+  border-radius: 40px;
+  margin-right: 12px;
+  border-color: white;
+}
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
