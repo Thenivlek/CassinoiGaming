@@ -1,6 +1,6 @@
-# UXBET Project
+# Cassino iGaming
 
-Este repositório contém o código-fonte da aplicação **UXBET** desenvolvida em React com SCSS.
+Este repositório contém o código-fonte da aplicação **Cassino iGaming** desenvolvida em React com SCSS.
 
 ## Pré-requisitos
 
